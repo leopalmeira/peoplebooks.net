@@ -1,5 +1,7 @@
 import express from 'express';
 import cors from 'cors';
+import path from 'path';
+import fs from 'fs';
 import { env } from './config/env.js';
 import apiRouter from './routes/api.js';
 import { errorHandler } from './middleware/errorHandler.js';
@@ -34,6 +36,25 @@ app.get('/health', (_req, res) => {
 
 // Mount API router
 app.use('/api', apiRouter);
+
+// Serve frontend static build if available (Production & Render Full-Stack)
+const possibleClientDistPaths = [
+  path.resolve(process.cwd(), 'client/dist'),
+  path.resolve(__dirname, '../../client/dist'),
+  path.resolve(__dirname, '../client/dist'),
+];
+
+const clientDistPath = possibleClientDistPaths.find((p) => fs.existsSync(p));
+
+if (clientDistPath) {
+  app.use(express.static(clientDistPath));
+  app.get('*', (req, res, next) => {
+    if (req.url.startsWith('/api') || req.url.startsWith('/health')) {
+      return next();
+    }
+    res.sendFile(path.join(clientDistPath, 'index.html'));
+  });
+}
 
 // Global Error Handler
 app.use(errorHandler);
