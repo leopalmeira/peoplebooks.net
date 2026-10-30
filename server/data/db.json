@@ -1,0 +1,1607 @@
+{
+  "users": [
+    {
+      "id": "user-admin-01",
+      "email": "admin@peoplebooks.net",
+      "passwordHash": "$2a$10$mqMsxR3xpQl8DosPB.SgKuqoS/zMmoSoi79PikcJdY2dMlWPTzxwi",
+      "name": "Curadoria PeopleBooks",
+      "role": "admin",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "user-participant-juliana",
+      "email": "juliana@peoplebooks.net",
+      "passwordHash": "$2a$10$80Ojkg7RcWT/slgEBUeDU.kjGLSvqYS1v4QZJ77o3.EoQ9a.flHSK",
+      "name": "Juliana Moreira",
+      "avatarUrl": "/assets/cover.png",
+      "role": "participant",
+      "createdAt": "2026-01-10T10:00:00Z"
+    },
+    {
+      "id": "user-reader-demo",
+      "email": "leitor@peoplebooks.net",
+      "passwordHash": "$2a$10$cACIydlwMFCJD3RGFbaI1OcAM5GyEjlvbOUz5qCuZ79hIGhPcNnu2",
+      "name": "Carlos Mendes",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "role": "reader",
+      "createdAt": "2026-02-01T15:30:00Z"
+    },
+    {
+      "id": "user-1793383661177",
+      "name": "Leandro Palmeira",
+      "email": "leandro2703palmeira@gmail.com",
+      "passwordHash": "$2a$10$CDaDa7dt.AxjCwdegAhYxOwuiHc6HurkVz1aj.Enw8YsGK5/yuDXW",
+      "role": "participant",
+      "createdAt": "2026-10-30T18:07:41.246Z"
+    }
+  ],
+  "volumes": [
+    {
+      "id": "01",
+      "slug": "volume-01",
+      "title": "Histórias que Inspiram",
+      "subtitle": "Pessoas comuns. Caminhos extraordinários.",
+      "description": "O volume inaugural de PeopleBooks reúne oito trajetórias de coragem, liderança e reinvenção que desafiam as probabilidades cotidianas.",
+      "theme": "Superação & Liderança",
+      "storiesCount": 8,
+      "amazonUrl": "https://www.amazon.com/dp/B0EXAMPLE01",
+      "coverImageUrl": "/assets/peoplebooks_vol1_hd.png",
+      "status": "published",
+      "priceCents": 1900,
+      "currency": "USD",
+      "publishedAt": "2026-01-15T00:00:00Z"
+    },
+    {
+      "id": "02",
+      "slug": "volume-02",
+      "title": "Novos Horizontes",
+      "subtitle": "Vidas que desafiaram fronteiras e convenções.",
+      "description": "Uma jornada por continentes e culturas onde o pertencimento, o cuidado comunitário e a paixão pelo planeta se tornam bússolas.",
+      "theme": "Exploração & Cultura",
+      "storiesCount": 8,
+      "amazonUrl": "https://www.amazon.com/dp/B0EXAMPLE02",
+      "coverImageUrl": "/assets/cover.png",
+      "status": "published",
+      "priceCents": 1900,
+      "currency": "USD",
+      "publishedAt": "2026-03-01T00:00:00Z"
+    },
+    {
+      "id": "03",
+      "slug": "volume-03",
+      "title": "Vozes do Mundo",
+      "subtitle": "Perspectivas globais, lições universais.",
+      "description": "Oito histórias que cruzam oceanos e gerações, revelando que a essência humana compartilha as mesmas dores, esperanças e buscas.",
+      "theme": "Diversidade & Legado",
+      "storiesCount": 8,
+      "amazonUrl": "https://www.amazon.com/dp/B0EXAMPLE03",
+      "coverImageUrl": "/assets/cover.png",
+      "status": "published",
+      "priceCents": 1900,
+      "currency": "USD",
+      "publishedAt": "2026-05-10T00:00:00Z"
+    }
+  ],
+  "participants": [
+    {
+      "id": "juliana",
+      "slug": "juliana-moreira",
+      "userId": "user-participant-juliana",
+      "primaryVolumeId": "01",
+      "name": "Juliana Moreira",
+      "legalName": "Juliana de Oliveira Moreira",
+      "number": "001",
+      "country": "Brasil",
+      "city": "São Paulo",
+      "languages": [
+        "Português",
+        "English",
+        "Español"
+      ],
+      "profession": "Empreendedora Social & Autora",
+      "age": 38,
+      "tag": "Empreendedorismo",
+      "title": "Uma vida dedicada a transformar pessoas",
+      "quote": "Acredito que pessoas transformam lugares. Minha trajetória começou com uma pergunta simples: como podemos fazer a diferença na vida de alguém?",
+      "bio": "Juliana fala sobre liderança humana, recomeços corajosos e os pequenos gestos que alteram destinos e constroem pontes duradouras.",
+      "fullStory": "Crescida na periferia de São Paulo, Juliana iniciou seu projeto com apenas um caderno de anotações e a determinação de apoiar jovens em situação de vulnerabilidade. Ao longo de 15 anos, seus programas capacitaram mais de 4.000 profissionais.",
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/juliana_spread_hd.png",
+      "initials": "JM",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Liderança",
+        "Educação",
+        "Impacto Social",
+        "Literatura"
+      ],
+      "createdAt": "2026-01-10T00:00:00Z"
+    },
+    {
+      "id": "gabriel",
+      "slug": "gabriel-costa",
+      "primaryVolumeId": "01",
+      "name": "Gabriel Costa",
+      "legalName": "Gabriel Soares Costa",
+      "number": "002",
+      "country": "Brasil",
+      "city": "Belo Horizonte",
+      "languages": [
+        "Português",
+        "English"
+      ],
+      "profession": "Designer Editorial & Tipógrafo",
+      "age": 34,
+      "tag": "Arte & Cultura",
+      "title": "A arte de construir futuros improváveis",
+      "quote": "Entre a tradição das oficinas tipográficas e o código limpo, encontrei meu lugar no mundo das histórias humanas.",
+      "bio": "Gabriel combina tipografia artesanal em tipos móveis com publicações digitais imersivas que celebram a memória coletiva.",
+      "fullStory": "Herdeiro de três gerações de impressores em Minas Gerais, Gabriel fundou um ateliê independente que une técnicas do século XIX com storytelling interativo contemporâneo.",
+      "avatarUrl": "/assets/gabriel.jpg",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "GC",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Tipografia",
+        "Design de Livros",
+        "Arquitetura",
+        "História"
+      ],
+      "createdAt": "2026-01-11T00:00:00Z"
+    },
+    {
+      "id": "emma",
+      "slug": "emma-laurent",
+      "primaryVolumeId": "01",
+      "name": "Emma Laurent",
+      "number": "003",
+      "country": "França",
+      "city": "Paris",
+      "languages": [
+        "Français",
+        "English"
+      ],
+      "profession": "Romancista & Mediadora de Leitura",
+      "age": 41,
+      "tag": "Literatura",
+      "title": "Palavras que acolhem e cicatrizam",
+      "quote": "A literatura não serve para escapar da realidade, mas para habitá-la com mais coragem e compaixão.",
+      "bio": "Emma conduz círculos de leitura em hospitais e prisões nos arredores de Paris, transformando depoimentos em livros comunitários.",
+      "fullStory": "Após perder um arquivo pessoal em um incêndio, Emma descobriu que a história verdadeira das pessoas não queima se estiver gravada na memória de quem escuta com atenção.",
+      "avatarUrl": "/assets/emma.jpg",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "EL",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Literatura",
+        "Poesia",
+        "Mediação Cultural",
+        "Filosofia"
+      ],
+      "createdAt": "2026-01-12T00:00:00Z"
+    },
+    {
+      "id": "noah",
+      "slug": "noah-williams",
+      "primaryVolumeId": "01",
+      "name": "Noah Williams",
+      "number": "004",
+      "country": "Reino Unido",
+      "city": "Oxford",
+      "languages": [
+        "English"
+      ],
+      "profession": "Biólogo & Botânico Urbano",
+      "age": 46,
+      "tag": "Sustentabilidade",
+      "title": "Onde a natureza e o homem se reencontram",
+      "quote": "Não existe progresso humano que justifique o silenciamento das árvores centenárias.",
+      "bio": "Noah dedicou vinte anos ao reflorestamento de zonas industriais degradadas na Europa ocidental.",
+      "fullStory": "Seus microbosques urbanos transformaram a temperatura e a qualidade de vida de comunidades periféricas no Reino Unido.",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "NW",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Botânica",
+        "Clima",
+        "Fotografia Natural",
+        "Caminhadas"
+      ],
+      "createdAt": "2026-01-13T00:00:00Z"
+    },
+    {
+      "id": "sofia",
+      "slug": "sofia-almeida",
+      "primaryVolumeId": "01",
+      "name": "Sofia Almeida",
+      "number": "005",
+      "country": "Portugal",
+      "city": "Porto",
+      "languages": [
+        "Português",
+        "English",
+        "Español"
+      ],
+      "profession": "Chef & Pesquisadora Gastronômica",
+      "age": 36,
+      "tag": "Gastronomia & Cultura",
+      "title": "Memórias servidas à mesa com afeto",
+      "quote": "Cozinhar é a forma mais antiga e sincera de contar a história de um povo sem precisar de palavras.",
+      "bio": "Sofia resgata receitas esquecidas de aldeias transmontanas, entrevistando matriarcas e valorizando produtos locais.",
+      "fullStory": "Seu restaurante-escola no Porto já formou mais de 200 imigrantes e refugiados na arte culinária sustentável.",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "SA",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Culinária",
+        "História Oral",
+        "Vinhos",
+        "Antropologia"
+      ],
+      "createdAt": "2026-01-14T00:00:00Z"
+    },
+    {
+      "id": "kenji",
+      "slug": "kenji-tanaka",
+      "primaryVolumeId": "01",
+      "name": "Kenji Tanaka",
+      "number": "006",
+      "country": "Japão",
+      "city": "Quioto",
+      "languages": [
+        "日本語",
+        "English"
+      ],
+      "profession": "Arquiteto & Mestre Marceneiro",
+      "age": 52,
+      "tag": "Arte & Design",
+      "title": "O equilíbrio sutil entre tradição e inovação",
+      "quote": "Quando você constrói uma viga de cedro, deve pensar em como ela envelhecerá daqui a cem anos.",
+      "bio": "Kenji utiliza técnicas ancestrais japonesas de encaixe em madeira, sem parafusos, em construções contemporâneas antisísmicas.",
+      "fullStory": "Premiado no Japão e na Europa por harmonizar a filosofia wabi-sabi com a eficiência energética do século XXI.",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "KT",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Arquitetura",
+        "Carpintaria",
+        "Cerâmica",
+        "Zen"
+      ],
+      "createdAt": "2026-01-15T00:00:00Z"
+    },
+    {
+      "id": "amina",
+      "slug": "amina-diallo",
+      "primaryVolumeId": "01",
+      "name": "Amina Diallo",
+      "number": "007",
+      "country": "Senegal",
+      "city": "Dakar",
+      "languages": [
+        "Wolof",
+        "Français",
+        "English"
+      ],
+      "profession": "Cantora & Griô Contemporânea",
+      "age": 29,
+      "tag": "Música & Raízes",
+      "title": "Ritmos ancestrais que ecoam em novos começos",
+      "quote": "A canção é a biblioteca invisível que os colonizadores nunca conseguiram queimar.",
+      "bio": "Amina combina a tradição dos contadores de histórias senegaleses com produção musical digital e poesia falada.",
+      "fullStory": "Representante da juventude africana nos palcos internacionais, Amina lidera oficinas de escrita rítmica para meninas em Dakar.",
+      "avatarUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "AD",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Música",
+        "Poesia Griô",
+        "Direitos das Mulheres",
+        "Tradição Oral"
+      ],
+      "createdAt": "2026-01-16T00:00:00Z"
+    },
+    {
+      "id": "lucas",
+      "slug": "lucas-ferreira",
+      "primaryVolumeId": "01",
+      "name": "Lucas Ferreira",
+      "number": "008",
+      "country": "Brasil",
+      "city": "Florianópolis",
+      "languages": [
+        "Português",
+        "English"
+      ],
+      "profession": "Atleta Paralímpico & Palestrante",
+      "age": 31,
+      "tag": "Superação & Esporte",
+      "title": "Cair sete vezes e levantar oito com um sorriso",
+      "quote": "A limitação física só define onde seu corpo começa, nunca onde seu propósito é capaz de chegar.",
+      "bio": "Após um acidente de moto aos 20 anos, Lucas descobriu no mar e na natação em águas abertas a chave para sua reconstrução.",
+      "fullStory": "Medalhista pan-americano e mentor de jovens com deficiência física motora através de projetos náuticos inclusivos.",
+      "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "LF",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Natação",
+        "Esporte Paralímpico",
+        "Mar",
+        "Motivação"
+      ],
+      "createdAt": "2026-01-17T00:00:00Z"
+    },
+    {
+      "id": "isabella",
+      "slug": "isabella-rossi",
+      "primaryVolumeId": "02",
+      "name": "Isabella Rossi",
+      "number": "009",
+      "country": "Itália",
+      "city": "Florença",
+      "languages": [
+        "Italiano",
+        "English",
+        "Español"
+      ],
+      "profession": "Restauradora de Afrescos",
+      "age": 43,
+      "tag": "História & Arte",
+      "title": "O tempo não apaga o que foi feito com amor",
+      "quote": "Restaurar não é repintar: é saber ouvir o sussurro do artista original escondido sob quinhentos anos de poeira.",
+      "bio": "Especialista em obras renascentistas nas igrejas da Toscana, Isabella trabalha com microscópio e pigmentos naturais.",
+      "fullStory": "Trabalhou no restauro de capelas florentinas afetadas por umidade e tremores, documentando a humanidade dos mestres do Quattrocento.",
+      "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "IR",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Renascimento",
+        "Química da Arte",
+        "Florença",
+        "Arqueologia"
+      ],
+      "createdAt": "2026-02-01T00:00:00Z"
+    },
+    {
+      "id": "oliver",
+      "slug": "oliver-brooks",
+      "primaryVolumeId": "02",
+      "name": "Oliver Brooks",
+      "number": "010",
+      "country": "Austrália",
+      "city": "Melbourne",
+      "languages": [
+        "English"
+      ],
+      "profession": "Oceanógrafo & Cineasta Submarino",
+      "age": 39,
+      "tag": "Ciência & Oceanos",
+      "title": "Ouvir a voz das marés antes que seja tarde",
+      "quote": "Nas profundezas escuras do oceano austral, você percebe quão frágil e preciosa é a fina camada de vida do planeta.",
+      "bio": "Oliver mergulha em recifes remotos para registrar os efeitos do branqueamento dos corais e divulgar a ciência marítima.",
+      "fullStory": "Criador de expedições educacionais para escolas públicas da Austrália e do Sudeste Asiático.",
+      "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "OB",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Mergulho Livre",
+        "Biologia Marinha",
+        "Cinema",
+        "Aventura"
+      ],
+      "createdAt": "2026-02-02T00:00:00Z"
+    },
+    {
+      "id": "camila",
+      "slug": "camila-torres",
+      "primaryVolumeId": "02",
+      "name": "Camila Torres",
+      "number": "011",
+      "country": "Colômbia",
+      "city": "Bogotá",
+      "languages": [
+        "Español",
+        "English"
+      ],
+      "profession": "Arquiteta Social & Urbanista",
+      "age": 35,
+      "tag": "Comunidade & Urbanismo",
+      "title": "Espaços que devolvem a dignidade humana",
+      "quote": "Um parque bem iluminado e uma biblioteca de bairro salvam mais vidas do que qualquer discurso político.",
+      "bio": "Camila projeta centros culturais em bairros de encosta em Bogotá, empregando mão de obra das próprias mães da comunidade.",
+      "fullStory": "Seus projetos de escadarias coloridas e praças comunitárias reduziram a evasão escolar e promoveram a reconciliação pós-conflito.",
+      "avatarUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "CT",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Urbanismo Tático",
+        "Colômbia",
+        "Fotografia de Rua",
+        "Inclusão"
+      ],
+      "createdAt": "2026-02-03T00:00:00Z"
+    },
+    {
+      "id": "daniel",
+      "slug": "daniel-kim",
+      "primaryVolumeId": "02",
+      "name": "Daniel Kim",
+      "number": "012",
+      "country": "Coreia do Sul",
+      "city": "Seul",
+      "languages": [
+        "한국어",
+        "English"
+      ],
+      "profession": "Fotógrafo Documental & Ensaísta",
+      "age": 37,
+      "tag": "Fotografia & Vida Urbana",
+      "title": "A beleza oculta nos instantes silenciosos",
+      "quote": "Em uma metrópole que nunca para, a fotografia é o único ato capaz de fazer o tempo prender a respiração.",
+      "bio": "Daniel documenta os últimos artesãos tradicionais e feirantes de Seul antes que os arranha-céus os substituam por completo.",
+      "fullStory": "Autor de quatro fotolivros premiados no Japão e na Alemanha, Daniel ministra palestras sobre contemplação visual no caos contemporâneo.",
+      "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "DK",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Fotografia Analógica",
+        "Chá Coreano",
+        "Viagens de Trem",
+        "Crônicas"
+      ],
+      "createdAt": "2026-02-04T00:00:00Z"
+    },
+    {
+      "id": "maya",
+      "slug": "maya-patel",
+      "primaryVolumeId": "02",
+      "name": "Maya Patel",
+      "number": "013",
+      "country": "Índia",
+      "city": "Mumbai",
+      "languages": [
+        "Hindi",
+        "English",
+        "Gujarati"
+      ],
+      "profession": "Médica de Família & Sanitarista",
+      "age": 42,
+      "tag": "Saúde & Solidariedade",
+      "title": "Cuidar é a mais pura forma de revolução",
+      "quote": "Quando você cura uma mãe, você cura sete gerações que virão depois dela.",
+      "bio": "Maya coordena clínicas móveis de atendimento materno-infantil em favelas de Mumbai e vilarejos no Rajastão.",
+      "fullStory": "Abandonou a carreira hospitalar privada para fundar uma rede cooperativa de enfermeiras comunitárias que já atendeu 50.000 famílias.",
+      "avatarUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "MP",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Saúde Pública",
+        "Meditação",
+        "Literatura Indiana",
+        "Direitos Humanos"
+      ],
+      "createdAt": "2026-02-05T00:00:00Z"
+    },
+    {
+      "id": "henrik",
+      "slug": "henrik-olsen",
+      "primaryVolumeId": "02",
+      "name": "Henrik Olsen",
+      "number": "014",
+      "country": "Noruega",
+      "city": "Oslo",
+      "languages": [
+        "Norsk",
+        "English"
+      ],
+      "profession": "Filósofo & Guia de Montanha",
+      "age": 48,
+      "tag": "Filosofia & Natureza",
+      "title": "A coragem de viver em harmonia com o essencial",
+      "quote": "O silêncio do Círculo Polar não é vazio: ele é cheio de todas as verdades que costumamos evitar nas cidades.",
+      "bio": "Henrik vive metade do ano em uma cabana nos fiordes sem conexão elétrica, escrevendo ensaios sobre a simplicidade voluntária.",
+      "fullStory": "Leva executivos e jovens em busca de propósito para travessias a pé no inverno ártico, ensinando sobrevivência e autoconhecimento.",
+      "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "HO",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Friluftsliv",
+        "Filosofia Nórdica",
+        "Esqui",
+        "Fogueiras"
+      ],
+      "createdAt": "2026-02-06T00:00:00Z"
+    },
+    {
+      "id": "elena",
+      "slug": "elena-vance",
+      "primaryVolumeId": "02",
+      "name": "Elena Vance",
+      "number": "015",
+      "country": "Canadá",
+      "city": "Toronto",
+      "languages": [
+        "English",
+        "Français"
+      ],
+      "profession": "Astrofísica & Divulgadora Científica",
+      "age": 33,
+      "tag": "Ciência & Universo",
+      "title": "Somos poeira das estrelas contando histórias",
+      "quote": "Olhar para uma galáxia distante a milhões de anos-luz é a melhor vacina contra a soberba humana.",
+      "bio": "Elena produz podcasts e livros ilustrados para aproximar a física quântica e a astronomia do público em idade escolar.",
+      "fullStory": "Pesquisadora do telescópio espacial, ela dedica suas noites a acampamentos comunitários de observação astronômica para crianças.",
+      "avatarUrl": "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "EV",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Astrofísica",
+        "Podcasts",
+        "Telescópios",
+        "Educação"
+      ],
+      "createdAt": "2026-02-07T00:00:00Z"
+    },
+    {
+      "id": "mateo",
+      "slug": "mateo-rossi-arg",
+      "primaryVolumeId": "02",
+      "name": "Mateo Rossi",
+      "number": "016",
+      "country": "Argentina",
+      "city": "Buenos Aires",
+      "languages": [
+        "Español",
+        "English"
+      ],
+      "profession": "Diretor de Cinema & Roteirista",
+      "age": 40,
+      "tag": "Cinema & Memória",
+      "title": "A vida como um roteiro aberto sem ensaios",
+      "quote": "O cinema não mente quando grava o brilho nos olhos de quem reencontra um velho amor de infância.",
+      "bio": "Mateo roda documentários íntimos sobre o cotidiano de bairros tradicionais de Buenos Aires e do interior argentino.",
+      "fullStory": "Premiado no Festival de San Sebastián, seus filmes exploram a perda, a música de bandoneón e a resiliência dos imigrantes.",
+      "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "MR",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Cinema",
+        "Tango",
+        "Literatura Latino-Americana",
+        "Roteiro"
+      ],
+      "createdAt": "2026-02-08T00:00:00Z"
+    },
+    {
+      "id": "lara",
+      "slug": "lara-mendes",
+      "primaryVolumeId": "03",
+      "name": "Lara Mendes",
+      "number": "017",
+      "country": "Portugal",
+      "city": "Lisboa",
+      "languages": [
+        "Português",
+        "English",
+        "Français"
+      ],
+      "profession": "Psicóloga Clínica & Cronista",
+      "age": 38,
+      "tag": "Desenvolvimento Pessoal",
+      "title": "Escrever é organizar o caos dentro do peito",
+      "quote": "Às vezes tudo o que precisamos não é de uma resposta brilhante, mas de um espaço seguro onde nossas dúvidas possam descansar.",
+      "bio": "Lara escreve sobre luto, maternidade e saúde mental em crônicas que tocam leitores em toda a comunidade de língua portuguesa.",
+      "fullStory": "Coordenadora de grupos de apoio terapêutico através da escrita reflexiva em Lisboa e Coimbra.",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "LM",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Psicologia",
+        "Escrita Terapêutica",
+        "Cafés de Lisboa",
+        "Poesia"
+      ],
+      "createdAt": "2026-03-01T00:00:00Z"
+    },
+    {
+      "id": "ethan",
+      "slug": "ethan-miller",
+      "primaryVolumeId": "03",
+      "name": "Ethan Miller",
+      "number": "018",
+      "country": "Estados Unidos",
+      "city": "Chicago",
+      "languages": [
+        "English",
+        "Español"
+      ],
+      "profession": "Professor de Ensino Fundamental",
+      "age": 45,
+      "tag": "Educação Pública",
+      "title": "Uma sala de aula pode mudar uma geração inteira",
+      "quote": "Se uma criança acredita que sua história importa, ela encontra forças para aprender qualquer cálculo ou ciência.",
+      "bio": "Ethan leciona no sul de Chicago há 22 anos, onde transformou uma sala sem recursos em um laboratório de criação literária.",
+      "fullStory": "Seus alunos publicaram três antologias infantis cujos lucros foram reinvestidos na biblioteca da comunidade.",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "EM",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Educação",
+        "Livros Infantis",
+        "Basquete",
+        "Oratória"
+      ],
+      "createdAt": "2026-03-02T00:00:00Z"
+    },
+    {
+      "id": "fatima",
+      "slug": "fatima-nasser",
+      "primaryVolumeId": "03",
+      "name": "Fátima Nasser",
+      "number": "019",
+      "country": "Egito",
+      "city": "Cairo",
+      "languages": [
+        "العربية",
+        "English",
+        "Français"
+      ],
+      "profession": "Arqueóloga & Historiadora",
+      "age": 49,
+      "tag": "Arqueologia & Raízes",
+      "title": "O passado nos ensina a não repetir feridas",
+      "quote": "Desenterrar uma estátua de cinco mil anos não é desenterrar pedras mortas: é reencontrar os mesmos medos e anseios que temos hoje.",
+      "bio": "Fátima lidera escavações no Alto Egito com foco no cotidiano dos artesãos e famílias camponesas do Vale dos Reis.",
+      "fullStory": "Defensora da preservação do patrimônio histórico ameaçado pela expansão urbana desordenada no Oriente Médio.",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "FN",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Egiptologia",
+        "Tradução de Papiros",
+        "Museologia",
+        "Deserto"
+      ],
+      "createdAt": "2026-03-03T00:00:00Z"
+    },
+    {
+      "id": "diego",
+      "slug": "diego-ramirez",
+      "primaryVolumeId": "03",
+      "name": "Diego Ramírez",
+      "number": "020",
+      "country": "México",
+      "city": "Cidade do México",
+      "languages": [
+        "Español",
+        "English"
+      ],
+      "profession": "Agroecologista & Guardião de Sementes",
+      "age": 38,
+      "tag": "Sustentabilidade & Tradição",
+      "title": "Semear esperança no meio do asfalto",
+      "quote": "Cada semente nativa que guardamos é um testamento de resistência dos nossos antepassados.",
+      "bio": "Diego preserva variedades raras de milho crioulo e ensina agricultura urbana nas lajes da Cidade do México.",
+      "fullStory": "Trabalha com cooperativas indígenas de Oaxaca para impedir a extinção de sementes ancestrais e proteger a soberania alimentar.",
+      "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "DR",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Sementes Crioulas",
+        "Permacultura",
+        "Muralismo",
+        "Cozinha Tradicional"
+      ],
+      "createdAt": "2026-03-04T00:00:00Z"
+    },
+    {
+      "id": "chloe",
+      "slug": "chloe-dupont",
+      "primaryVolumeId": "03",
+      "name": "Chloe Dupont",
+      "number": "021",
+      "country": "Canadá",
+      "city": "Montreal",
+      "languages": [
+        "Français",
+        "English"
+      ],
+      "profession": "Bailarina & Coreógrafa Inclusiva",
+      "age": 32,
+      "tag": "Arte & Dança",
+      "title": "O movimento começa onde as palavras silenciam",
+      "quote": "A dança não pertence aos corpos perfeitos de palco, mas a qualquer ser humano que respira e sente.",
+      "bio": "Chloe fundou uma companhia de dança integrada que reúne bailarinos profissionais e pessoas com mobilidade reduzida.",
+      "fullStory": "Suas coreografias têm sido aclamadas em teatros do Canadá e da França por quebrar barreiras estéticas na dança contemporânea.",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "CD",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Dança Contemporânea",
+        "Inclusão",
+        "Música Instrumental",
+        "Montanhas"
+      ],
+      "createdAt": "2026-03-05T00:00:00Z"
+    },
+    {
+      "id": "samuel",
+      "slug": "samuel-adebayo",
+      "primaryVolumeId": "03",
+      "name": "Samuel Adebayo",
+      "number": "022",
+      "country": "Nigéria",
+      "city": "Lagos",
+      "languages": [
+        "Yoruba",
+        "English"
+      ],
+      "profession": "Engenheiro Solar & Inovador Social",
+      "age": 30,
+      "tag": "Energia Limpa & Inovação",
+      "title": "A criatividade floresce onde a necessidade desafia",
+      "quote": "Luz em uma casa rural significa que uma menina pode estudar à noite e sonhar com a universidade.",
+      "bio": "Samuel constrói minirredes solares comunitárias e estações de recarga a partir de baterias recicladas em Lagos.",
+      "fullStory": "Reconhecido pela União Africana como um dos 30 jovens líderes em inovação ecológica do continente.",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "SA",
+      "isFeatured": true,
+      "isActive": true,
+      "interests": [
+        "Energia Solar",
+        "Economia Circular",
+        "Robótica",
+        "Futebol"
+      ],
+      "createdAt": "2026-03-06T00:00:00Z"
+    },
+    {
+      "id": "astrid",
+      "slug": "astrid-lindqvist",
+      "primaryVolumeId": "03",
+      "name": "Astrid Lindqvist",
+      "number": "023",
+      "country": "Suécia",
+      "city": "Estocolmo",
+      "languages": [
+        "Svenska",
+        "English"
+      ],
+      "profession": "Marceneira de Barcos Clássicos",
+      "age": 44,
+      "tag": "Ofícios Raros & Mar",
+      "title": "A paciência da madeira ensina a viver devagar",
+      "quote": "Um barco de madeira não é apenas um casco flutuante: é o casamento do carvalho com a sabedoria das mãos humanas.",
+      "bio": "Astrid mantém um estaleiro artesanal no arquipélago de Estocolmo, restaurando veleiros clássicos do início do século XX.",
+      "fullStory": "Forma aprendizes mulheres no ofício naval tradicional nórdico, resistindo ao avanço dos plásticos e resinas sintéticas.",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "AL",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Navegação Tradicional",
+        "Marcenaria",
+        "Fotografia Marítima",
+        "Sauna"
+      ],
+      "createdAt": "2026-03-07T00:00:00Z"
+    },
+    {
+      "id": "bao",
+      "slug": "bao-nguyen",
+      "primaryVolumeId": "03",
+      "name": "Bao Nguyen",
+      "number": "024",
+      "country": "Vietnã",
+      "city": "Hanói",
+      "languages": [
+        "Tiếng Việt",
+        "English"
+      ],
+      "profession": "Mestre de Chá & Monge Laico",
+      "age": 56,
+      "tag": "Filosofia Oriental & Presença",
+      "title": "Uma xícara quente e cinco minutos de presença",
+      "quote": "A pressa é a ilusão de que a próxima esquina é mais bonita do que o solo em que seus pés repousam agora.",
+      "bio": "Bao cultiva chás silvestres em árvores centenárias nas montanhas do norte do Vietnã e ensina a arte do silêncio.",
+      "fullStory": "Recebe viajantes e escritores do mundo inteiro em sua casa de chá de bambu à beira do lago em Hanói.",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+      "spreadImageUrl": "/assets/spread.jpg",
+      "initials": "BN",
+      "isFeatured": false,
+      "isActive": true,
+      "interests": [
+        "Cerimônia do Chá",
+        "Meditação",
+        "Poesia Clássica",
+        "Caligrafia"
+      ],
+      "createdAt": "2026-03-08T00:00:00Z"
+    }
+  ],
+  "volumeEntitlements": [
+    {
+      "id": "entitlement-demo-01",
+      "userId": "user-reader-demo",
+      "volumeId": "01",
+      "status": "active",
+      "verificationMethod": "mock",
+      "verificationReference": "PB-DEMO-01",
+      "verifiedAt": "2026-02-01T15:35:00Z",
+      "createdAt": "2026-02-01T15:30:00Z"
+    }
+  ],
+  "purchaseVerificationRequests": [],
+  "diaryPosts": [
+    {
+      "id": "post-juliana-01",
+      "participantId": "juliana",
+      "volumeId": "01",
+      "title": "A coragem de recomeçar quando tudo parece incerto",
+      "slug": "a-coragem-de-recomecar",
+      "excerpt": "Hoje revisitei a antiga garagem onde demos a primeira oficina de capacitação há doze anos. Algumas conquistas começam com um simples e tremeluzente sim.",
+      "content": "Hoje pela manhã caminhei pelas ruas do bairro onde tudo começou. A garagem onde nos reuníamos aos sábados agora é uma padaria movimentada. O cheiro de café fresco me lembrou das tardes em que dividíamos um único pacote de biscoitos enquanto desenhávamos os primeiros currículos.\n\nMuitas pessoas me perguntam se eu não sentia medo naquela época. O medo era constante. A diferença é que a vontade de abrir caminhos era ligeiramente maior do que o temor do fracasso. Quando você não tem garantias, a única coisa que lhe resta é a autenticidade do seu compromisso.\n\nAos leitores deste primeiro volume que me acompanham aqui no PeopleBooks: obrigado por estarem aqui. Esta página não é um resumo estático; ela continuará registrando cada passo da nossa jornada coletiva.",
+      "visibility": "volume_readers",
+      "location": "São Paulo, Brasil",
+      "tags": [
+        "Recomeços",
+        "Empreendedorismo",
+        "Memórias"
+      ],
+      "likesCount": 42,
+      "mediaUrls": [
+        "/assets/juliana_spread_hd.png"
+      ],
+      "isPinned": true,
+      "publishedAt": "2026-01-18T10:00:00Z",
+      "createdAt": "2026-01-18T10:00:00Z"
+    },
+    {
+      "id": "post-juliana-02",
+      "participantId": "juliana",
+      "volumeId": "01",
+      "title": "Três perguntas que faço antes de aceitar um novo desafio",
+      "slug": "tres-perguntas-antes-de-um-desafio",
+      "excerpt": "Aprendi com o tempo que dizer não a coisas boas é o único modo de ter energia para dizer sim às coisas verdadeiramente extraordinárias.",
+      "content": "A primeira pergunta é: \"Isso honra as pessoas que confiaram em mim quando eu nada tinha?\" A segunda: \"Estou fazendo isso por vaidade ou por impacto real?\" E a terceira: \"Se ninguém ficasse sabendo, eu ainda assim me orgulharia de ter feito?\" Se a resposta não for cristalina nas três, eu recuo.",
+      "visibility": "volume_readers",
+      "location": "São Paulo, Brasil",
+      "tags": [
+        "Liderança",
+        "Decisões",
+        "Valores"
+      ],
+      "likesCount": 31,
+      "mediaUrls": [],
+      "isPinned": false,
+      "publishedAt": "2026-02-02T14:20:00Z",
+      "createdAt": "2026-02-02T14:20:00Z"
+    },
+    {
+      "id": "post-juliana-03",
+      "participantId": "juliana",
+      "volumeId": "01",
+      "title": "Prévia Pública: Por que decidi abrir minha história no livro",
+      "slug": "previa-publica-minha-historia",
+      "excerpt": "Colocar meu rosto e minha trajetória no PeopleBooks não foi sobre autopromoção, mas sobre provar que histórias reais constroem comunidades vivas.",
+      "content": "Quando a equipe editorial me apresentou o projeto do PeopleBooks, o que me tocou foi a recusa do anonimato frio das redes sociais. Aqui, cada leitor que compra o livro e escaneia meu QR Code chega com uma intenção genuína de conexão literária. Bem-vindos!",
+      "visibility": "public_preview",
+      "location": "São Paulo, Brasil",
+      "tags": [
+        "Editorial",
+        "Boas-Vindas"
+      ],
+      "likesCount": 88,
+      "mediaUrls": [
+        "/assets/peoplebooks_vol1_hd.png"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-01-16T08:00:00Z",
+      "createdAt": "2026-01-16T08:00:00Z"
+    },
+    {
+      "id": "post-gabriel-01",
+      "participantId": "gabriel",
+      "volumeId": "01",
+      "title": "O cheiro da tinta preta e o peso do chumbo",
+      "slug": "o-cheiro-da-tinta-preta",
+      "excerpt": "Uma reflexão sobre por que a lentidão do processo artesanal nos torna mais humanos.",
+      "content": "Na tipografia tradicional, compor uma única página de texto pode levar três horas. Você precisa pegar letra por letra, invertida como num espelho, e colocá-la no componedor. Não existe botão de 'desfazer'. Isso obriga o cérebro a pensar dez vezes antes de imprimir uma bobagem. O mundo digital precisa aprender essa sabedoria do chumbo.",
+      "visibility": "volume_readers",
+      "location": "Belo Horizonte, Brasil",
+      "tags": [
+        "Tipografia",
+        "Design",
+        "Ofício"
+      ],
+      "likesCount": 28,
+      "mediaUrls": [
+        "/assets/gabriel.jpg"
+      ],
+      "isPinned": true,
+      "publishedAt": "2026-01-20T11:30:00Z",
+      "createdAt": "2026-01-20T11:30:00Z"
+    },
+    {
+      "id": "post-emma-01",
+      "participantId": "emma",
+      "volumeId": "01",
+      "title": "Uma tarde com os veteranos do Sena",
+      "slug": "uma-tarde-com-os-veteranos",
+      "excerpt": "Hoje lemos poemas de Prévert para um grupo de oito idosos que viveram a reconstrução de Paris no pós-guerra.",
+      "content": "Um deles, Monsieur Jean, de 92 anos, ficou em silêncio por quase uma hora. Ao final, segurou minha mão e disse: 'Mademoiselle, as palavras bonitas não pagam o pão, mas nos lembram por que vale a pena continuar respirando.' Guardarei essa frase pelo resto da minha existência.",
+      "visibility": "volume_readers",
+      "location": "Paris, França",
+      "tags": [
+        "Literatura",
+        "Memória",
+        "França"
+      ],
+      "likesCount": 39,
+      "mediaUrls": [
+        "/assets/emma.jpg"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-01-25T16:00:00Z",
+      "createdAt": "2026-01-25T16:00:00Z"
+    },
+    {
+      "id": "post-noah-01",
+      "participantId": "noah",
+      "volumeId": "01",
+      "title": "Diário Vivo: Reflexões sobre Sustentabilidade",
+      "slug": "reflexoes-sobre-sustentabilidade",
+      "excerpt": "Uma entrada especial no PeopleBooks por Noah Williams, diretamente de Oxford, Reino Unido.",
+      "content": "Não existe progresso humano que justifique o silenciamento das árvores centenárias.\n\nHoje é um dia especial na minha rotina em Oxford. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 01 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Oxford, Reino Unido",
+      "tags": [
+        "Sustentabilidade",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 15,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": true,
+      "publishedAt": "2026-02-10T12:00:00Z",
+      "createdAt": "2026-02-10T12:00:00Z"
+    },
+    {
+      "id": "post-sofia-01",
+      "participantId": "sofia",
+      "volumeId": "01",
+      "title": "Diário Vivo: Reflexões sobre Gastronomia & Cultura",
+      "slug": "reflexoes-sobre-gastronomia-&-cultura",
+      "excerpt": "Uma entrada especial no PeopleBooks por Sofia Almeida, diretamente de Porto, Portugal.",
+      "content": "Cozinhar é a forma mais antiga e sincera de contar a história de um povo sem precisar de palavras.\n\nHoje é um dia especial na minha rotina em Porto. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 01 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Porto, Portugal",
+      "tags": [
+        "Gastronomia & Cultura",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 18,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": true,
+      "publishedAt": "2026-02-11T12:00:00Z",
+      "createdAt": "2026-02-11T12:00:00Z"
+    },
+    {
+      "id": "post-kenji-01",
+      "participantId": "kenji",
+      "volumeId": "01",
+      "title": "Diário Vivo: Reflexões sobre Arte & Design",
+      "slug": "reflexoes-sobre-arte-&-design",
+      "excerpt": "Uma entrada especial no PeopleBooks por Kenji Tanaka, diretamente de Quioto, Japão.",
+      "content": "Quando você constrói uma viga de cedro, deve pensar em como ela envelhecerá daqui a cem anos.\n\nHoje é um dia especial na minha rotina em Quioto. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 01 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Quioto, Japão",
+      "tags": [
+        "Arte & Design",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 21,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": true,
+      "publishedAt": "2026-02-12T12:00:00Z",
+      "createdAt": "2026-02-12T12:00:00Z"
+    },
+    {
+      "id": "post-amina-01",
+      "participantId": "amina",
+      "volumeId": "01",
+      "title": "Diário Vivo: Reflexões sobre Música & Raízes",
+      "slug": "reflexoes-sobre-música-&-raízes",
+      "excerpt": "Uma entrada especial no PeopleBooks por Amina Diallo, diretamente de Dakar, Senegal.",
+      "content": "A canção é a biblioteca invisível que os colonizadores nunca conseguiram queimar.\n\nHoje é um dia especial na minha rotina em Dakar. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 01 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Dakar, Senegal",
+      "tags": [
+        "Música & Raízes",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 24,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-13T12:00:00Z",
+      "createdAt": "2026-02-13T12:00:00Z"
+    },
+    {
+      "id": "post-lucas-01",
+      "participantId": "lucas",
+      "volumeId": "01",
+      "title": "Diário Vivo: Reflexões sobre Superação & Esporte",
+      "slug": "reflexoes-sobre-superação-&-esporte",
+      "excerpt": "Uma entrada especial no PeopleBooks por Lucas Ferreira, diretamente de Florianópolis, Brasil.",
+      "content": "A limitação física só define onde seu corpo começa, nunca onde seu propósito é capaz de chegar.\n\nHoje é um dia especial na minha rotina em Florianópolis. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 01 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Florianópolis, Brasil",
+      "tags": [
+        "Superação & Esporte",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 27,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-14T12:00:00Z",
+      "createdAt": "2026-02-14T12:00:00Z"
+    },
+    {
+      "id": "post-isabella-01",
+      "participantId": "isabella",
+      "volumeId": "02",
+      "title": "Diário Vivo: Reflexões sobre História & Arte",
+      "slug": "reflexoes-sobre-história-&-arte",
+      "excerpt": "Uma entrada especial no PeopleBooks por Isabella Rossi, diretamente de Florença, Itália.",
+      "content": "Restaurar não é repintar: é saber ouvir o sussurro do artista original escondido sob quinhentos anos de poeira.\n\nHoje é um dia especial na minha rotina em Florença. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 02 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Florença, Itália",
+      "tags": [
+        "História & Arte",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 30,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-15T12:00:00Z",
+      "createdAt": "2026-02-15T12:00:00Z"
+    },
+    {
+      "id": "post-oliver-01",
+      "participantId": "oliver",
+      "volumeId": "02",
+      "title": "Diário Vivo: Reflexões sobre Ciência & Oceanos",
+      "slug": "reflexoes-sobre-ciência-&-oceanos",
+      "excerpt": "Uma entrada especial no PeopleBooks por Oliver Brooks, diretamente de Melbourne, Austrália.",
+      "content": "Nas profundezas escuras do oceano austral, você percebe quão frágil e preciosa é a fina camada de vida do planeta.\n\nHoje é um dia especial na minha rotina em Melbourne. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 02 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Melbourne, Austrália",
+      "tags": [
+        "Ciência & Oceanos",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 33,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-16T12:00:00Z",
+      "createdAt": "2026-02-16T12:00:00Z"
+    },
+    {
+      "id": "post-camila-01",
+      "participantId": "camila",
+      "volumeId": "02",
+      "title": "Diário Vivo: Reflexões sobre Comunidade & Urbanismo",
+      "slug": "reflexoes-sobre-comunidade-&-urbanismo",
+      "excerpt": "Uma entrada especial no PeopleBooks por Camila Torres, diretamente de Bogotá, Colômbia.",
+      "content": "Um parque bem iluminado e uma biblioteca de bairro salvam mais vidas do que qualquer discurso político.\n\nHoje é um dia especial na minha rotina em Bogotá. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 02 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Bogotá, Colômbia",
+      "tags": [
+        "Comunidade & Urbanismo",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 36,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-17T12:00:00Z",
+      "createdAt": "2026-02-17T12:00:00Z"
+    },
+    {
+      "id": "post-daniel-01",
+      "participantId": "daniel",
+      "volumeId": "02",
+      "title": "Diário Vivo: Reflexões sobre Fotografia & Vida Urbana",
+      "slug": "reflexoes-sobre-fotografia-&-vida-urbana",
+      "excerpt": "Uma entrada especial no PeopleBooks por Daniel Kim, diretamente de Seul, Coreia do Sul.",
+      "content": "Em uma metrópole que nunca para, a fotografia é o único ato capaz de fazer o tempo prender a respiração.\n\nHoje é um dia especial na minha rotina em Seul. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 02 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Seul, Coreia do Sul",
+      "tags": [
+        "Fotografia & Vida Urbana",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 39,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-18T12:00:00Z",
+      "createdAt": "2026-02-18T12:00:00Z"
+    },
+    {
+      "id": "post-maya-01",
+      "participantId": "maya",
+      "volumeId": "02",
+      "title": "Diário Vivo: Reflexões sobre Saúde & Solidariedade",
+      "slug": "reflexoes-sobre-saúde-&-solidariedade",
+      "excerpt": "Uma entrada especial no PeopleBooks por Maya Patel, diretamente de Mumbai, Índia.",
+      "content": "Quando você cura uma mãe, você cura sete gerações que virão depois dela.\n\nHoje é um dia especial na minha rotina em Mumbai. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 02 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Mumbai, Índia",
+      "tags": [
+        "Saúde & Solidariedade",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 42,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-19T12:00:00Z",
+      "createdAt": "2026-02-19T12:00:00Z"
+    },
+    {
+      "id": "post-henrik-01",
+      "participantId": "henrik",
+      "volumeId": "02",
+      "title": "Diário Vivo: Reflexões sobre Filosofia & Natureza",
+      "slug": "reflexoes-sobre-filosofia-&-natureza",
+      "excerpt": "Uma entrada especial no PeopleBooks por Henrik Olsen, diretamente de Oslo, Noruega.",
+      "content": "O silêncio do Círculo Polar não é vazio: ele é cheio de todas as verdades que costumamos evitar nas cidades.\n\nHoje é um dia especial na minha rotina em Oslo. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 02 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Oslo, Noruega",
+      "tags": [
+        "Filosofia & Natureza",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 45,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-20T12:00:00Z",
+      "createdAt": "2026-02-20T12:00:00Z"
+    },
+    {
+      "id": "post-elena-01",
+      "participantId": "elena",
+      "volumeId": "02",
+      "title": "Diário Vivo: Reflexões sobre Ciência & Universo",
+      "slug": "reflexoes-sobre-ciência-&-universo",
+      "excerpt": "Uma entrada especial no PeopleBooks por Elena Vance, diretamente de Toronto, Canadá.",
+      "content": "Olhar para uma galáxia distante a milhões de anos-luz é a melhor vacina contra a soberba humana.\n\nHoje é um dia especial na minha rotina em Toronto. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 02 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Toronto, Canadá",
+      "tags": [
+        "Ciência & Universo",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 48,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-21T12:00:00Z",
+      "createdAt": "2026-02-21T12:00:00Z"
+    },
+    {
+      "id": "post-mateo-01",
+      "participantId": "mateo",
+      "volumeId": "02",
+      "title": "Diário Vivo: Reflexões sobre Cinema & Memória",
+      "slug": "reflexoes-sobre-cinema-&-memória",
+      "excerpt": "Uma entrada especial no PeopleBooks por Mateo Rossi, diretamente de Buenos Aires, Argentina.",
+      "content": "O cinema não mente quando grava o brilho nos olhos de quem reencontra um velho amor de infância.\n\nHoje é um dia especial na minha rotina em Buenos Aires. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 02 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Buenos Aires, Argentina",
+      "tags": [
+        "Cinema & Memória",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 51,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-22T12:00:00Z",
+      "createdAt": "2026-02-22T12:00:00Z"
+    },
+    {
+      "id": "post-lara-01",
+      "participantId": "lara",
+      "volumeId": "03",
+      "title": "Diário Vivo: Reflexões sobre Desenvolvimento Pessoal",
+      "slug": "reflexoes-sobre-desenvolvimento-pessoal",
+      "excerpt": "Uma entrada especial no PeopleBooks por Lara Mendes, diretamente de Lisboa, Portugal.",
+      "content": "Às vezes tudo o que precisamos não é de uma resposta brilhante, mas de um espaço seguro onde nossas dúvidas possam descansar.\n\nHoje é um dia especial na minha rotina em Lisboa. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 03 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Lisboa, Portugal",
+      "tags": [
+        "Desenvolvimento Pessoal",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 54,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-23T12:00:00Z",
+      "createdAt": "2026-02-23T12:00:00Z"
+    },
+    {
+      "id": "post-ethan-01",
+      "participantId": "ethan",
+      "volumeId": "03",
+      "title": "Diário Vivo: Reflexões sobre Educação Pública",
+      "slug": "reflexoes-sobre-educação-pública",
+      "excerpt": "Uma entrada especial no PeopleBooks por Ethan Miller, diretamente de Chicago, Estados Unidos.",
+      "content": "Se uma criança acredita que sua história importa, ela encontra forças para aprender qualquer cálculo ou ciência.\n\nHoje é um dia especial na minha rotina em Chicago. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 03 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Chicago, Estados Unidos",
+      "tags": [
+        "Educação Pública",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 57,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-24T12:00:00Z",
+      "createdAt": "2026-02-24T12:00:00Z"
+    },
+    {
+      "id": "post-fatima-01",
+      "participantId": "fatima",
+      "volumeId": "03",
+      "title": "Diário Vivo: Reflexões sobre Arqueologia & Raízes",
+      "slug": "reflexoes-sobre-arqueologia-&-raízes",
+      "excerpt": "Uma entrada especial no PeopleBooks por Fátima Nasser, diretamente de Cairo, Egito.",
+      "content": "Desenterrar uma estátua de cinco mil anos não é desenterrar pedras mortas: é reencontrar os mesmos medos e anseios que temos hoje.\n\nHoje é um dia especial na minha rotina em Cairo. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 03 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Cairo, Egito",
+      "tags": [
+        "Arqueologia & Raízes",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 60,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-25T12:00:00Z",
+      "createdAt": "2026-02-25T12:00:00Z"
+    },
+    {
+      "id": "post-diego-01",
+      "participantId": "diego",
+      "volumeId": "03",
+      "title": "Diário Vivo: Reflexões sobre Sustentabilidade & Tradição",
+      "slug": "reflexoes-sobre-sustentabilidade-&-tradição",
+      "excerpt": "Uma entrada especial no PeopleBooks por Diego Ramírez, diretamente de Cidade do México, México.",
+      "content": "Cada semente nativa que guardamos é um testamento de resistência dos nossos antepassados.\n\nHoje é um dia especial na minha rotina em Cidade do México. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 03 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Cidade do México, México",
+      "tags": [
+        "Sustentabilidade & Tradição",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 63,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-26T12:00:00Z",
+      "createdAt": "2026-02-26T12:00:00Z"
+    },
+    {
+      "id": "post-chloe-01",
+      "participantId": "chloe",
+      "volumeId": "03",
+      "title": "Diário Vivo: Reflexões sobre Arte & Dança",
+      "slug": "reflexoes-sobre-arte-&-dança",
+      "excerpt": "Uma entrada especial no PeopleBooks por Chloe Dupont, diretamente de Montreal, Canadá.",
+      "content": "A dança não pertence aos corpos perfeitos de palco, mas a qualquer ser humano que respira e sente.\n\nHoje é um dia especial na minha rotina em Montreal. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 03 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Montreal, Canadá",
+      "tags": [
+        "Arte & Dança",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 66,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-27T12:00:00Z",
+      "createdAt": "2026-02-27T12:00:00Z"
+    },
+    {
+      "id": "post-samuel-01",
+      "participantId": "samuel",
+      "volumeId": "03",
+      "title": "Diário Vivo: Reflexões sobre Energia Limpa & Inovação",
+      "slug": "reflexoes-sobre-energia-limpa-&-inovação",
+      "excerpt": "Uma entrada especial no PeopleBooks por Samuel Adebayo, diretamente de Lagos, Nigéria.",
+      "content": "Luz em uma casa rural significa que uma menina pode estudar à noite e sonhar com a universidade.\n\nHoje é um dia especial na minha rotina em Lagos. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 03 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Lagos, Nigéria",
+      "tags": [
+        "Energia Limpa & Inovação",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 69,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-10T12:00:00Z",
+      "createdAt": "2026-02-10T12:00:00Z"
+    },
+    {
+      "id": "post-astrid-01",
+      "participantId": "astrid",
+      "volumeId": "03",
+      "title": "Diário Vivo: Reflexões sobre Ofícios Raros & Mar",
+      "slug": "reflexoes-sobre-ofícios-raros-&-mar",
+      "excerpt": "Uma entrada especial no PeopleBooks por Astrid Lindqvist, diretamente de Estocolmo, Suécia.",
+      "content": "Um barco de madeira não é apenas um casco flutuante: é o casamento do carvalho com a sabedoria das mãos humanas.\n\nHoje é um dia especial na minha rotina em Estocolmo. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 03 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "public_preview",
+      "location": "Estocolmo, Suécia",
+      "tags": [
+        "Ofícios Raros & Mar",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 72,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-11T12:00:00Z",
+      "createdAt": "2026-02-11T12:00:00Z"
+    },
+    {
+      "id": "post-bao-01",
+      "participantId": "bao",
+      "volumeId": "03",
+      "title": "Diário Vivo: Reflexões sobre Filosofia Oriental & Presença",
+      "slug": "reflexoes-sobre-filosofia-oriental-&-presença",
+      "excerpt": "Uma entrada especial no PeopleBooks por Bao Nguyen, diretamente de Hanói, Vietnã.",
+      "content": "A pressa é a ilusão de que a próxima esquina é mais bonita do que o solo em que seus pés repousam agora.\n\nHoje é um dia especial na minha rotina em Hanói. Quando olho para o caminho percorrido até aqui, percebo que cada desafio superado foi na verdade um mestre silencioso. Espero que este capítulo no Volume 03 do PeopleBooks inspire suas próprias decisões.",
+      "visibility": "volume_readers",
+      "location": "Hanói, Vietnã",
+      "tags": [
+        "Filosofia Oriental & Presença",
+        "Vida Real",
+        "Inspiração"
+      ],
+      "likesCount": 75,
+      "mediaUrls": [
+        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isPinned": false,
+      "publishedAt": "2026-02-12T12:00:00Z",
+      "createdAt": "2026-02-12T12:00:00Z"
+    }
+  ],
+  "follows": [
+    {
+      "id": "f-1",
+      "followerUserId": "user-reader-demo",
+      "participantId": "juliana",
+      "createdAt": "2026-10-30T17:23:18.211Z"
+    }
+  ],
+  "conversationRequests": [],
+  "messages": [],
+  "paidContents": [
+    {
+      "id": "paid-juliana-01",
+      "participantId": "juliana",
+      "volumeId": "01",
+      "title": "Capítulo Inédito: O Guia de Liderança Invisível",
+      "description": "Um ensaio biográfico de 40 páginas e notas de áudio pessoais sobre como inspirar equipes em tempos de crise severa sem perder a ternura.",
+      "contentType": "chapter",
+      "priceMinorUnits": 990,
+      "currency": "BRL",
+      "previewUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80",
+      "fileVaultPath": "/vault/juliana/guia-lideranca-invisivel.pdf",
+      "status": "active",
+      "createdAt": "2026-01-20T00:00:00Z"
+    },
+    {
+      "id": "paid-juliana-02",
+      "participantId": "juliana",
+      "volumeId": "01",
+      "title": "Galeria Exclusiva: 10 Anos de Expedições Sociais",
+      "description": "Coleção de 60 fotografias originais em alta definição com comentários em áudio dos bastidores das oficinas nas periferias do Brasil.",
+      "contentType": "gallery",
+      "priceMinorUnits": 1490,
+      "currency": "BRL",
+      "previewUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+      "fileVaultPath": "/vault/juliana/galeria-expedicoes.zip",
+      "status": "active",
+      "createdAt": "2026-01-22T00:00:00Z"
+    },
+    {
+      "id": "paid-gabriel-01",
+      "participantId": "gabriel",
+      "volumeId": "01",
+      "title": "Caderno de Tipografia: Matrizes Históricas de Minas",
+      "description": "Documentação visual detalhada dos tipos de imprensa raros do século XIX restaurados no ateliê em Belo Horizonte.",
+      "contentType": "story_doc",
+      "priceMinorUnits": 1200,
+      "currency": "BRL",
+      "previewUrl": "/assets/gabriel.jpg",
+      "fileVaultPath": "/vault/gabriel/matrizes-historicas.pdf",
+      "status": "active",
+      "createdAt": "2026-01-25T00:00:00Z"
+    },
+    {
+      "id": "paid-emma-01",
+      "participantId": "emma",
+      "volumeId": "01",
+      "title": "Áudio-Livro: Poemas que Ninguém Mais Ouve",
+      "description": "Leitura comentada de poemas inéditos recolhidos junto aos idosos de Paris, com trilha sonora original de acordeão e piano.",
+      "contentType": "video",
+      "priceMinorUnits": 1500,
+      "currency": "BRL",
+      "previewUrl": "/assets/emma.jpg",
+      "fileVaultPath": "/vault/emma/audiolivro-paris.mp3",
+      "status": "active",
+      "createdAt": "2026-01-28T00:00:00Z"
+    },
+    {
+      "id": "paid-sofia-01",
+      "participantId": "sofia",
+      "volumeId": "01",
+      "title": "O Livro das Receitas Esquecidas de Trás-os-Montes",
+      "description": "12 receitas milenares de pães e ensopados explicadas passo a passo com histórias orais de quem as preparava em fornos comunitários.",
+      "contentType": "chapter",
+      "priceMinorUnits": 990,
+      "currency": "BRL",
+      "previewUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+      "fileVaultPath": "/vault/sofia/receitas-esquecidas.pdf",
+      "status": "active",
+      "createdAt": "2026-02-01T00:00:00Z"
+    }
+  ],
+  "contentPurchases": [
+    {
+      "id": "purch-1793381435669",
+      "userId": "user-reader-demo",
+      "paidContentId": "paid-juliana-02",
+      "amountPaidMinorUnits": 1490,
+      "currency": "BRL",
+      "platformFeeMinorUnits": 298,
+      "authorNetMinorUnits": 1192,
+      "paymentMethod": "simulated_card_or_pix",
+      "status": "completed",
+      "createdAt": "2026-10-30T17:30:35.669Z"
+    },
+    {
+      "id": "purch-1793381440328",
+      "userId": "user-reader-demo",
+      "paidContentId": "paid-juliana-01",
+      "amountPaidMinorUnits": 990,
+      "currency": "BRL",
+      "platformFeeMinorUnits": 198,
+      "authorNetMinorUnits": 792,
+      "paymentMethod": "simulated_card_or_pix",
+      "status": "completed",
+      "createdAt": "2026-10-30T17:30:40.328Z"
+    }
+  ],
+  "financialLedger": [
+    {
+      "id": "ledg-1793381435669",
+      "participantId": "juliana",
+      "transactionType": "sale",
+      "amountMinorUnits": 1192,
+      "balanceAfterMinorUnits": 1192,
+      "currency": "BRL",
+      "referenceId": "purch-1793381435669",
+      "description": "Venda do conteúdo: Galeria Exclusiva: 10 Anos de Expedições Sociais (Bruto: R$ 14.90, Comissão PeopleBooks 20%: R$ 2.98)",
+      "createdAt": "2026-10-30T17:30:35.669Z"
+    },
+    {
+      "id": "ledg-1793381440328",
+      "participantId": "juliana",
+      "transactionType": "sale",
+      "amountMinorUnits": 792,
+      "balanceAfterMinorUnits": 1984,
+      "currency": "BRL",
+      "referenceId": "purch-1793381440328",
+      "description": "Venda do conteúdo: Capítulo Inédito: O Guia de Liderança Invisível (Bruto: R$ 9.90, Comissão PeopleBooks 20%: R$ 1.98)",
+      "createdAt": "2026-10-30T17:30:40.328Z"
+    }
+  ],
+  "participantApplications": [],
+  "auditLogs": []
+}
